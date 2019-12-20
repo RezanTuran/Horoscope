@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    color: #3dff00;
+    border: 8px solid red;
+    margin: 0;
+    padding: 10px;
+}
+ 
+hr{
+    border: 1px solid red;
+}
