@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  div{
+    display: flex;
+    justify-content: center;
+  }
+  button{
+    font-size: 18px;
+    font-family: monospace;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border: 3px solid #ffa500;
+    margin: 5px;
+}
+button:hover{
+    background: rgba(216, 22, 22, 0.5);
+    border-color: yellow;
+}
+.buttonsDiv{
+    display: flex;
+}
+.dateDiv{
+    display: flex;
+    justify-content: center;
+}
+#inputDate{
+    font-size: 18px;
+    font-family: monospace;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border: 3px solid orange;
+}
+#inputDate:hover{
+    background: rgba(216, 22, 22, 0.5);
+    border-color: yellow;
+}
+#showHoroscopeOnScreen{
+    font-size: 35px;
+    font-family: monospace;
+    color: orange;
+    height: 25px;
+}
+
+
+/* ### Responsive ### */
+@media screen and (max-width: 768px)  {
+
+    .buttonsDiv {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    #myVideo {
+       display: none;
+    }
+    body{
+        background: url(../img/resBack.jpg);
+    }
+}
