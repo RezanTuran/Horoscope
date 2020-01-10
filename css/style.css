@@ -21,6 +21,7 @@ body{
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
+    height: 100vh;
   }
   div{
     display: flex;
@@ -76,5 +77,8 @@ button:hover{
     }
     body{
         background: url(../img/resBack.jpg);
+    }
+    section{
+        background: none;
     }
 }

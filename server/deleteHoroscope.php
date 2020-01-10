@@ -11,7 +11,6 @@ if(isset($_SERVER['REQUEST_METHOD'])) {
     }else { 
         echo json_encode("not a POST method");
     }
-    
 } else {
     echo json_encode("No valid request");
 }
